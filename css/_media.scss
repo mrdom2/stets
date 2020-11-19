@@ -1,0 +1,614 @@
+@media (max-width: 1499px) {
+    .myContainer {
+        width: 1140px;
+    }
+    .menu {
+        .nav-link {
+            font-size: 12px;
+            margin: 0;
+        }
+        .nav-item {
+            &:nth-child(even) {
+                .nav-link {
+                    margin: 0 30px;
+                }
+            }
+        }
+    }
+    .main h1,
+    .bottomOrder h1 {
+        font-size: 46px;
+    }
+    .main .dno,
+    .bottomOrder .dno {
+        width: 335px;
+        height: 320px;
+        img {
+            width: 80%;
+        }
+    }
+    .main .dno button,
+    .bottomOrder .dno button {
+        width: 170px;
+        height: 40px;
+        font-size: 15px;
+        bottom: -21px;
+    }
+    .main .formBlock form input,
+    .main .formBlock form select,
+    .bottomOrder .formBlock form input,
+    .bottomOrder .formBlock form select {
+        width: 120px;
+    }
+    .main .formBlock form input.centralInput,
+    .bottomOrder .formBlock form input.centralInput {
+        margin: 0 20px;
+    }
+    .main .formBlock form button,
+    .bottomOrder .formBlock form button {
+        width: 170px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .main .formBlock form,
+    .bottomOrder .formBlock form {
+        margin-top: 25px;
+    }
+    .main .formBlock .timer,
+    .bottomOrder .formBlock .timer {
+        margin-top: 30px;
+    }
+    .main {
+        padding-top: 120px;
+    }
+    .troubles h4 {
+        width: 68%;
+    }
+    .troubles .flex {
+        .item {
+            width: 262px;
+            img {
+                width: 100%;
+            }
+            &:nth-child(1) {
+                margin-right: 14px;
+            }
+            &:nth-child(3) {
+                margin: 0 14px;
+            }
+            &.row2lg {
+                margin: 25px 14px;
+            }
+            &.row3lg {
+                margin: 0 14px 40px;
+            }
+        }
+    }
+    .troubles .footerText {
+        width: 62%;
+    }
+    .hiddenLG {
+        display: none;
+    }
+    .discovery .flex {
+        display: block;
+        margin-top: 30px;
+    }
+    .discovery .flex .textBlock {
+        display: none;
+    }
+    .discovery .flex .anotherText {
+        display: block;
+        &.first {
+            padding-top: 10px;
+        }
+    }
+    .discovery .flex img {
+        float: left;
+        margin: 0 30px 0px 0;
+    }
+    .discovery .flex p {
+        margin-bottom: 25px;
+    }
+    .sostav .flex {
+        width: 1140px;
+    }
+    .sostav .flex .item {
+        width: 120px;
+        img {
+            width: 100%;
+        }
+    }
+    .sostav .bottomText {
+        width: 52%;
+    }
+    .faq .sld .bx-wrapper .bx-prev {
+        left: 0px;
+    }
+    .faq .sld .bx-wrapper .bx-next {
+        right: 0px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .advan,
+    .feeds {
+        button {
+            width: 170px;
+            height: 40px;
+            font-size: 15px;
+        }
+    }
+    .myContainer,
+    .sostav .flex {
+        width: 960px;
+    }
+    .main h1,
+    .bottomOrder h1 {
+        font-size: 38px;
+    }
+    .menu .nav-link {
+        font-size: 11px;
+    }
+    .menu .nav-item:nth-child(even) .nav-link {
+        margin: 0 20px;
+    }
+    .menu nav {
+        padding: 20px 0;
+    }
+    .main .dno,
+    .bottomOrder .dno {
+        width: 285px;
+        height: 265px;
+    }
+    .main .formBlock form input,
+    .main .formBlock form select,
+    .bottomOrder .formBlock form input,
+    .bottomOrder .formBlock form select {
+        width: 95px;
+        font-size: 14px;
+    }
+    .main .formBlock .timer__item .numbers,
+    .bottomOrder .formBlock .timer__item .numbers {
+        font-size: 25px;
+    }
+    .main .formBlock .timer__item .text,
+    .bottomOrder .formBlock .timer__item .text {
+        font-size: 10px;
+    }
+    .main .formBlock .timer__item,
+    .bottomOrder .formBlock .timer__item {
+        width: 55px;
+        height: 55px;
+    }
+    .main .formBlock h3,
+    .bottomOrder .formBlock h3 {
+        font-size: 18px;
+    }
+    .main .formBlock form,
+    .bottomOrder .formBlock form {
+        margin-top: 0px;
+    }
+    .main .formBlock .timer__header,
+    .bottomOrder .formBlock .timer__header {
+        margin-bottom: 10px;
+    }
+    .main .formBlock .timer,
+    .bottomOrder .formBlock .timer {
+        margin-top: 27px;
+    }
+    .main .arrowscroll {
+        margin-top: 60px;
+    }
+    .main {
+        padding-top: 100px;
+    }
+    .troubles h4 {
+        width: 85%;
+    }
+    .troubles .flex .item {
+        margin-left: 12px!important;
+        margin-right: 12px!important;
+        .row2lg {}
+        &.row3md {
+            margin-top: 0;
+        }
+    }
+    .troubles .flex .item.row2md {
+        margin: 25px 14px;
+    }
+    .troubles .footerText {
+        width: 83%;
+    }
+    .spec .bro .textBlock {
+        margin-left: -50%;
+    }
+    .about .noflex .textBlock p {
+        font-size: 14px;
+    }
+    .about .noflex .textBlock {
+        padding: 50px 40% 50px 40px;
+        margin-top: 37px;
+    }
+    .about .noflex img {
+        margin-left: -35%;
+        width: 275px;
+    }
+    .sostav .flex .item {
+        width: 100px;
+    }
+    .sostav .flex hr {
+        width: 50px;
+        margin: 80px 15px 0;
+    }
+    .sostav .flex .item .text {
+        font-size: 14px;
+    }
+    .sostav .bottomText {
+        width: 70%;
+    }
+    .feeds .sld .bx-wrapper .bx-prev {
+        left: 280px;
+    }
+    .feeds .sld .bx-wrapper .bx-next {
+        right: 280px;
+    }
+    .feeds .sld .text {
+        font-size: 14px;
+    }
+    .feeds .sld .bx-wrapper .bx-controls-direction a {
+        top: 14%;
+    }
+    .method .flex .item .text {
+        font-size: 14px;
+    }
+    .method hr {
+        width: 130px;
+        margin: 30px -35px 0;
+    }
+    .faq .sld {
+        background-size: 70%;
+    }
+    .faq .sld .wrap header {
+        font-size: 18px;
+    }
+    .faq .sld .wrap .info {
+        font-size: 14px;
+    }
+    .faq .sld .wrap {
+        width: 60%;
+    }
+    .faq .sld .bx-wrapper .bx-next {
+        right: -80px;
+    }
+    .faq .sld .bx-wrapper .bx-prev {
+        left: -80px;
+    }
+}
+
+@media (max-width: 991px) {
+    .myContainer,
+    .sostav .flex {
+        width: 720px;
+    }
+    .menu,
+    .main .dno,
+    .bottomOrder .dno {
+        display: none;
+    }
+    .main .myContainer,
+    .bottomOrder .myContainer {
+        justify-content: center;
+    }
+    .visibleSMandXS {
+        display: block;
+    }
+    .products {
+        padding: 35px 0 15px;
+        display: flex;
+        justify-content: center;
+        .dno {
+            border: 1px solid rgb(97, 171, 115);
+            width: 285px;
+            height: 265px;
+            margin: 0 15px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            text-align: center;
+            justify-content: center;
+            &.pack {
+                background-color: #f5f5f5;
+            }
+            img {
+                width: 70%;
+            }
+            button {
+                position: absolute;
+                bottom: -18px;
+                background-color: #fff;
+                width: 140px;
+                height: 35px;
+                color: #232323;
+                font-weight: 500;
+                text-transform: uppercase;
+                border: 1px solid rgb(97, 171, 115);
+                box-shadow: none;
+                cursor: pointer;
+                font-size: 13px;
+            }
+        }
+    }
+    .troubles .flex .item {
+        width: 212px;
+    }
+    .troubles .flex .item .text {
+        font-size: 14px;
+    }
+    .spec .bro .imageBlock {
+        width: 90%;
+        img {
+            width: 100%;
+        }
+    }
+    .spec .bro .textBlock {
+        font-size: 14px;
+        margin-right: 0;
+        margin-left: 0;
+        float: right;
+        position: relative;
+        margin-top: -160px;
+    }
+    .spec {
+        .bro {
+            display: block;
+        }
+    }
+    .about {
+        .sectionHeading {
+            margin-bottom: 30px;
+        }
+        .noflex .textBlock {
+            padding-left: 15px;
+            padding-top: 45px;
+            padding-bottom: 45px;
+            margin-top: 0;
+        }
+    }
+    .about .noflex img {
+        margin-left: -40%;
+    }
+    .advan .flex hr {
+        display: none;
+    }
+    .advan .flex .item img {
+        width: 75px;
+        margin: auto;
+    }
+    .advan .flex .item .text {
+        font-size: 14px;
+    }
+    .discovery .flex img {
+        width: 50%;
+        height: auto;
+    }
+    .discovery .flex .anotherText {
+        font-size: 14px;
+    }
+    .sostav .flex .item {
+        width: 89px;
+    }
+    .order-md-2 {
+        order: 2!important;
+    }
+    .order-md-3 {
+        order: 3!important;
+    }
+    .feeds .sld .text {
+        width: 90%;
+        margin-left: auto;
+    }
+    .feeds .sld .bx-wrapper .bx-controls-direction a {
+        top: 12%;
+    }
+    .feeds .sld .bx-wrapper .bx-next {
+        right: 240px;
+    }
+    .feeds .sld .bx-wrapper .bx-prev {
+        left: 240px;
+    }
+    .faq .sld .bx-wrapper .bx-prev {
+        left: 0;
+    }
+    .faq .sld .bx-wrapper .bx-next {
+        right: 0;
+    }
+    .faq .sld .wrap {
+        width: 80%;
+    }
+    .order .flex .item {
+        img {
+            width: 75px;
+        }
+        .text {
+            font-size: 14px;
+        }
+    }
+    .order hr {
+        width: 80px;
+        margin-top: 38px;
+    }
+    .bottomOrder {
+        padding-bottom: 10px;
+    }
+    .productsBottom {
+        padding-bottom: 90px;
+    }
+}
+
+@media (max-width: 767px) {
+    .myContainer,
+    .sostav .flex {
+        width: 100%;
+    }
+    .products {
+        flex-wrap: wrap;
+        padding-bottom: 0;
+        .dno {
+            margin-bottom: 30px;
+        }
+    }
+    .troubles h4 {
+        width: 98%;
+    }
+    .troubles .flex .item {
+        margin-top: 0!important;
+        margin-bottom: 20px!important;
+    }
+    .spec .bro .imageBlock {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .spec .bro .textBlock {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -80px;
+        width: 95%;
+        text-align: center;
+    }
+    .spec .bro {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .about .noflex img {
+        display: none!important;
+    }
+    .about .noflex .textBlock {
+        padding: 20px 30px;
+        text-align: center;
+    }
+    .about .noflex .textBlock p {
+        margin-top: 15px;
+    }
+    .advan .flex {
+        flex-wrap: wrap;
+    }
+    .advan .flex .item {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .discovery .flex img {
+        width: 300px;
+        display: block;
+        margin: auto;
+        float: none;
+    }
+    .discovery .flex .anotherText {
+        padding: 0 15px;
+    }
+    .infoSection {
+        padding: 25px 0 35px;
+    }
+    .sostav .flex hr {
+        display: none;
+    }
+    .sostav .flex {
+        padding: 0 15px;
+        justify-content: space-around;
+        .item {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+    .feeds .sld {
+        padding-bottom: 0;
+    }
+    .feeds .sld .bx-wrapper .bx-prev {
+        left: 40px;
+    }
+    .feeds .sld .bx-wrapper .bx-next {
+        right: 40px;
+    }
+    .feeds .sld .bx-wrapper .bx-controls-direction a {
+        top: 8%;
+    }
+    .feeds .sld .text {
+        width: 100%;
+        text-align: center;
+    }
+    .method hr {
+        display: none;
+    }
+    .method .flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .item {
+            margin-top: 20px;
+        }
+    }
+    .faq {
+        padding-bottom: 140px;
+        .sld {
+            background-position: center -80px;
+            background-size: cover;
+            padding: 0;
+            padding-top: 80px;
+            margin-top: 30px;
+            li {
+                left: 0;
+            }
+            .bx-wrapper .bx-controls-direction a {
+                top: 107%;
+            }
+            .bx-wrapper .bx-prev {
+                left: 120px;
+            }
+            .bx-wrapper .bx-next {
+                right: 120px;
+            }
+        }
+    }
+    .faq .sld .wrap {
+        width: 100%;
+    }
+    .order hr {
+        display: none;
+    }
+    .order .flex {
+        flex-wrap: wrap;
+    }
+    .order .flex .item {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .main .formBlock form input.centralInput,
+    .bottomOrder .formBlock form input.centralInput {
+        margin: 0 5px;
+    }
+}
+
+@media (min-width: 768px) {}
+
+@media (max-width: 736px) {}
+
+@media (max-width: 667px) {}
+
+@media (max-width: 640px) {}
+
+@media (max-width: 568px) {}
+
+@media (max-width: 415px) {}
+
+@media (min-width: 768px) {}
+
+@media (max-width: 413px) {}
+
+@media (max-width: 376px) {}
+
+@media (max-width: 360px) {}
+
+@media (max-width: 321px) {}
